@@ -14,7 +14,7 @@ storage = MemoryStorage()
 logging.basicConfig(level=logging.INFO)
 
 
-start_connect = sqlite3.connect('users.db')
+start_connect = sqlite3.connect('dodopizza.db')
 cur  = start_connect.cursor()
 
 cur.execute("""CREATE TABLE IF NOT EXISTS users(
